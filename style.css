@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   padding: 0;
@@ -82,6 +83,30 @@ body {
   width: auto;
   max-width: 500px;
   margin: 20px auto;
+  max-height: 600px;
+  overflow-y: scroll;
+  padding: 30px 50px;
+  font-family: tahoma, arial, "Hiragino Sans GB", 宋体, sans-serif;
+}
+.letter-inner span {
+  line-height: 2;
+}
+
+@media screen and (max-width: 599px) {
+  .avatars {
+    left: 100%;
+  }
+
+  .countdownWrapper {
+    margin: 0 30px;
+  }
+  .countdownWrapper:not(#countdown) {
+    font-size: 17px;
+  }
+
+  #countdown {
+    font-size: 30px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

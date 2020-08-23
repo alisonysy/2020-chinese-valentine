@@ -2345,4 +2345,26 @@ $skirt: rgb(170, 210, 255);
   width: auto;
   max-width: 500px;
   margin: 20px auto;
+  max-height: 600px;
+  overflow-y: scroll;
+  padding: 30px 50px;
+  font-family: tahoma, arial, "Hiragino Sans GB", 宋体, sans-serif;
+  span {
+    line-height: 2;
+  }
+}
+
+@media screen and (max-width: 599px){
+  .avatars{
+    left: 100%;
+  }
+  .countdownWrapper{
+    margin: 0 30px;
+    &:not(#countdown){
+      font-size: 17px;
+    }
+  }
+  #countdown{
+    font-size: 30px;
+  }
 }
