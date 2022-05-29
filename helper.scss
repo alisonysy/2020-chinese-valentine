@@ -1,0 +1,23 @@
+@use "sass:list";
+
+@function render_row($rowNumber, $startPos, $colorList, $isEnd: false, $size: 8px, $offset: 0) {
+  $block: ();
+  $len: length($colorList) - 1;
+  @each $color in $colorList {
+    // the index of el in the list
+    $i: length($block);
+
+    // $size * $rowNumber + $rowNumber - 1
+    $sec: ($size + 1)*$rowNumber - 1; 
+    // $trailingComma: if($i == $len, null, #{','});
+    $trailingComma: #{','};
+    @if $isEnd{
+      $trailingComma: if($i == $len, null, $trailingComma);
+    }
+
+    $block: list.append($block, ($size*$startPos+$i+$offset $sec $color$trailingComma));
+
+    $startPos: $startPos + 1;
+  }
+  @return $block;
+}
