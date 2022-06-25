@@ -24,6 +24,13 @@
     });
   };
   $(document).ready(function(){
-    $('.avatars').on('click', initPopup);
-  })
+    $('.avatars').on('click', swapClass);
+  });
+
+  function swapClass() {
+    const alisonAva = document.getElementById('alison')
+    const willAva = document.getElementById('will')
+    alisonAva.classList.toggle('marriage')
+    willAva.classList.toggle('marriage')
+  }
 })();

@@ -23,6 +23,8 @@ $shirt: #fff;
 $heart: red;
 $skirt: #aad2ff;
 $brown: #26130d;
+$beige: beige;
+$bronze: rgb(105, 72, 72);
 
 .paddingTop{
   padding-top: 10vh;
@@ -108,7 +110,56 @@ $brown: #26130d;
     box-shadow: 
       helper.render_row(1, 12, $black $black $black $black $black)
       helper.render_row(2, 10, $black $black $black $black $black $black $black $black)
-      helper.render_row(3, 8, $black $black $black $black $black $black $black $black $black $black $black $black, $isEnd: true)
+      helper.render_row(3, 8, $black $black $black $black $black $black $black $black $black $black $black)
+      helper.render_row(4, 7, $black $black $black $black $black $black $black $black $black $black $black $black $black)
+      helper.render_row(5, 6, $black $black $black $black $black $black $black $black $black $skin $skin $black $black $black)
+      helper.render_row(6, 5, $black $black $black $black $black $black $black $black $black $skin $skin $skin $black $black $black $black)
+      helper.render_row(7, 5, $black $black $black $black $black $black $black $skin $skin $skin $skin $skin $black $black $black $black)
+      helper.render_row(8, 5, $black $black $black $black $black $black $skin $skin $skin $skin $skin $skin $skin $black $black $black)
+      helper.render_row(9, 5, $black $black $skin $skin $skin $skin $skin $skin $skin $skin $skin $skin $skin $skin $black $black)
+      helper.render_row(10, 4, $black $black $black $skin $skin $black $black $skin $skin $skin $skin $black $black $skin $skin $black $black)
+      helper.render_row(11, 4, $black $black $black $skin $skin $black $black $skin $skin $skin $skin $black $black $skin $skin $black $black)
+      helper.render_row(12, 3, $black $black $black $black $skin $skin $black $black $skin $skin $skin $skin $black $black $skin $skin $black $black)
+      helper.render_row(13, 3, $black $black $black $black $skin $skin $skin $skin $skin $skin $skin $skin $skin $skin $skin $skin $black $black)
+      helper.render_row(14, 3, $black $black $black $black $skin $skin $skin $skin $skin $black $skin $skin $skin $skin $skin $skin $black $black)
+      helper.render_row(15, 4, $black $black $black $black $skin $skin $skin $skin $black $skin $skin $skin $skin $skin $black $black $black)
+      helper.render_row(16, 5, $black $black $black $skin $pink $skin $skin $skin $skin $skin $skin $pink $skin $black $black $black)
+      helper.render_row(17, 5, $black $black $black $black $skin $skin $mouth $skin $skin $mouth $skin $skin $black $black $black $black)
+      helper.render_row(18, 5, $black $black $black $black $black $skin $skin $mouth $mouth $skin $skin $black $black $black $black)
+      helper.render_row(19, 5, $black $black $black $black $black $black $skin $skin $skin $skin $black $black $black $black)
+      helper.render_row(20, 6, $black $black $black $black $black $skin $skin $skin $skin $black $black $black $black)
+      helper.render_row(21, 7, $black $black $black $black $beige $skin $skin $skin $beige $beige $black $black $black)
+      helper.render_row(22, 6, $beige $black $black $black $black $beige $skin $skin $beige $beige $beige $beige $black $black)
+      helper.render_row(23, 6, $beige $black $black $black $black $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige)
+      helper.render_row(24, 4, $beige $beige $beige $black $black $black $black $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige)
+      helper.render_row(25, 3, $beige $beige $beige $black $black $black $black $beige $beige $beige $beige $beige $beige $bronze $bronze $beige $beige $beige $beige $beige $beige)
+      helper.render_row(26, 3, $beige $beige $beige $black $black $black $black $beige $beige $beige $beige $beige $beige $bronze $bronze $beige $beige $beige $beige $beige $beige $beige)
+      helper.render_row(27, 2, $beige $beige $beige $beige $black $black $black $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige)
+      helper.render_row(28, 1, $beige $beige $beige $beige $beige $beige $black $black $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $skin)
+      helper.render_row(29, 1, $beige $beige $beige $beige $beige $beige $beige $black $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $skin $skin $skin)
+      helper.render_row(30, 2, $skin $skin $skin $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $background $skin $skin $skin $skin)
+      helper.render_row(31, 3, $skin $skin $skin $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $background $background $background $skin $skin $skin)
+      helper.render_row(32, 4, $skin $skin $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $bronze $bronze $beige $beige $beige $background $background $background $background $skin $skin $skin)
+      helper.render_row(33, 4, $skin $skin $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $bronze $bronze $beige $beige $beige $background $background $background $background $background $skin $skin $skin)
+      helper.render_row(34, 5, $skin $skin $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $background $background $background $background $background $background $skin $skin $skin)
+      helper.render_row(35, 6, $skin $skin $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $background $background $background $background $background $background $background $skin $skin $skin $skin)
+      helper.render_row(36, 7, $skin $skin $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $background $background $background $background $background $background $background $background $skin $skin $skin $skin)
+      helper.render_row(37, 7, $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $background $background $background $background $background $background $background $background $background $skin $skin)
+      helper.render_row(38, 6, $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $background $background $background $background $background $background)
+      helper.render_row(39, 6, $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $background $background $background $background $background)
+      helper.render_row(40, 5, $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $background $background $background $background)
+      helper.render_row(41, 4, $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $background $background)
+      helper.render_row(42, 4, $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $background)
+      helper.render_row(43, 4, $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $background)
+      helper.render_row(44, 4, $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $beige $background)
+      helper.render_row(45, 9, $skin $skin $skin $background $background $background $background $skin $skin $skin)
+      helper.render_row(46, 9, $skin $skin $skin $background $background $background $background $skin $skin $skin)
+      helper.render_row(47, 9, $skin $skin $skin $background $background $background $background $skin $skin $skin)
+      helper.render_row(48, 9, $skin $skin $skin $background $background $background $background $skin $skin $skin)
+      helper.render_row(49, 9, $skin $skin $skin $background $background $background $background $skin $skin $skin)
+      helper.render_row(50, 9, $skin $skin $skin $background $background $background $background $skin $skin $skin)
+      helper.render_row(51, 9, $black $black $black $background $background $background $background $black $black $black)
+      helper.render_row(52, 9, $black $black $black $background $background $background $background $black $black $black , $isEnd: true)
     ;
   }
 }
@@ -1208,8 +1259,67 @@ $brown: #26130d;
     ($block * 21 + 18) ($block * 52 + 54) $black,
     ($block * 27 + 24) ($block * 52 + 54) $black,
     ($block * 28 + 25) ($block * 52 + 54) $black,
-    ($block * 29 + 26) ($block * 52 + 54) $black,
+    ($block * 29 + 26) ($block * 52 + 54) $black;
     // ($block * 30 + 27) ($block * 52 + 54) $border,
+
+    &.marriage {
+      box-shadow: 
+        helper.render_row(1, 18, $black $background $background $black $background $background $black $background $background $black $background $background $black, $offset: 15)
+        helper.render_row(2, 16, $black $black $black $black $background $black $black $background $black $black $background $black $black $black $black, $offset: 13)
+        helper.render_row(3, 17, $black $black $black $black $black $black $black $black $black $black $black $black $black $black $black, $offset: 14)
+        helper.render_row(4, 17, $black $black $black $black $black $black $black $black $black $black $black $black $black $black $black, $offset: 14)
+        helper.render_row(5, 17, $black $black $black $black $black $black $black $black $black $black $black $black $black $black $black, $offset: 14)
+        helper.render_row(6, 17, $black $black $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $black $black, $offset: 14)
+        helper.render_row(7, 17, $black $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $black, $offset: 14)
+        helper.render_row(8, 17, $black $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $black, $offset: 14)
+        helper.render_row(9, 17, $black $skinL $skinL $black $black $skinL $skinL $skinL $skinL $skinL $black $black $skinL $skinL $black, $offset: 14)
+        helper.render_row(10, 17, $black $skinL $black $skinL $skinL $black $skinL $skinL $skinL $black $skinL $skinL $black $skinL $black, $offset: 14)
+        helper.render_row(11, 17, $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL, $offset: 14)
+        helper.render_row(12, 17, $skinL $skinL $skinL $skinL $skinL $skinL $skinL $black $skinL $skinL $skinL $skinL $skinL $skinL $skinL, $offset: 14)
+        helper.render_row(13, 17, $black $skinL $skinL $skinL $skinL $skinL $skinL $black $skinL $skinL $skinL $skinL $skinL $skinL $black, $offset: 15)
+        helper.render_row(14, 17, $black $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $black, $offset: 15)
+        helper.render_row(15, 18, $black $skinL $skinL $skinL $mouth $skinL $skinL $skinL $mouth $skinL $skinL $skinL $black , $offset: 16)
+        helper.render_row(16, 19, $skinL $skinL $skinL $skinL $mouth $mouth $mouth $skinL $skinL $skinL $skinL, $offset: 17)
+        helper.render_row(17, 20, $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL $skinL, $offset: 18)
+        helper.render_row(18, 21, $skinL $skinL $skinL $skinL $skinL $skinL, $offset: 22)
+        helper.render_row(19, 22, $skinL $skinL $skinL $skinL $skinL , $offset: 19)
+        helper.render_row(20, 22, $beige $skinL $skinL $skinL $beige , $offset: 19)
+        helper.render_row(21, 21, $beige $beige $beige $skinL $beige $beige $beige, $offset: 19)
+        helper.render_row(22, 20, $bronze $beige $beige $beige $beige $beige $beige $beige $bronze, $offset: 19)
+        helper.render_row(23, 16, $bronze $bronze $beige $beige $beige $black $black $black $beige $beige $beige $bronze $bronze, $offset: 30)
+        helper.render_row(24, 12, $bronze $bronze $bronze $bronze $bronze $beige $beige $beige $black $black $beige $beige $beige $bronze $bronze $bronze $bronze $bronze, $offset: 38)
+        helper.render_row(25, 8, $beige $beige $bronze $bronze $bronze $bronze $bronze $beige $beige $beige $black $beige $beige $beige $bronze $bronze $bronze $bronze $bronze $beige $beige, $offset: 56)
+        helper.render_row(26, 7, $beige $beige $beige $beige $bronze $bronze $bronze $bronze $bronze $beige $beige $black $black $beige $beige $bronze $bronze $bronze $bronze $bronze $beige $beige $beige $beige, $offset: 50)
+        helper.render_row(27, 6, $beige $beige $beige $beige $beige $bronze $bronze $bronze $bronze $bronze $beige $beige $black $black $beige $beige $bronze $bronze $bronze $bronze $bronze $beige $beige $beige $beige $beige, $offset: 49)
+        helper.render_row(28, 5, $beige $beige $beige $beige $beige $beige $bronze $bronze $bronze $bronze $bronze $bronze $beige $black $black $beige $bronze $bronze $bronze $bronze $bronze $bronze $beige $beige $beige $beige $beige, $offset: 48)
+        helper.render_row(29, 5, $beige $beige $beige $beige $beige $background $bronze $bronze $bronze $bronze $bronze $bronze $bronze $black $black $bronze $bronze $bronze $bronze $bronze $bronze $bronze $beige $beige $beige $beige $beige, $offset: 48)
+        helper.render_row(30, 4, $beige $beige $beige $beige $beige $background $background $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $beige $beige $beige $beige $beige, $offset: 46)
+        helper.render_row(31, 4, $beige $beige $beige $beige $beige $background $background $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $beige $beige $beige $beige $beige, $offset: 46)
+        helper.render_row(32, 3, $beige $beige $beige $beige $beige $background $background $background $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $beige $beige $beige $beige, $offset: 43)
+        helper.render_row(33, 2, $beige $beige $beige $beige $beige $background $background $background $background $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $black $bronze $bronze $bronze $bronze $bronze $bronze $bronze $beige $beige $beige $beige, $offset: 41)
+        helper.render_row(34, 2, $beige $beige $beige $beige $beige $background $background $background $background $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $beige $beige $beige $beige, $offset: 43)
+        helper.render_row(35, 3, $skinL $skinL $skinL $background $background $background $background $background $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $beige $beige $beige $beige, $offset: 43)
+        helper.render_row(36, 3, $skinL $skinL $skinL $background $background $background $background $background $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $black $bronze $bronze $bronze $bronze $bronze $bronze $bronze $beige $beige $beige $beige, $offset: 43)
+        helper.render_row(37, 2, $skinL $skinL $skinL $background $background $background $background $background $background $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $beige $beige $beige $beige, $offset: 43)
+        helper.render_row(38, 2, $skinL $skinL $skinL $background $background $background $background $background $background $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $beige $beige $beige $beige, $offset: 43)
+        helper.render_row(39, 13, $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $bronze $black $bronze $bronze $bronze $bronze $bronze $bronze $bronze $beige $beige $beige, $offset: 37)
+        helper.render_row(40, 14, $black $black $black $black $black $black $black $black $black $black $black $black $black $black $black $skinL $skinL $skinL, $offset: 35)
+        helper.render_row(41, 14, $black $black $black $black $black $black $black $black $black $black $black $black $black $black $black $skinL $skinL, $offset: 35)
+        helper.render_row(42, 14, $black $black $black $black $black $black $black $background $black $black $black $black $black $black $black $skinL, $offset: 35)
+        helper.render_row(43, 14, $black $black $black $black $black $black $black $background $black $black $black $black $black $black $black, $offset: 35)
+        helper.render_row(44, 14, $black $black $black $black $black $black $black $background $black $black $black $black $black $black $black, $offset: 35)
+        helper.render_row(45, 14, $black $black $black $black $black $black $black $background $black $black $black $black $black $black $black, $offset: 35)
+        helper.render_row(46, 14, $black $black $black $black $black $black $black $background $black $black $black $black $black $black $black, $offset: 35)
+        helper.render_row(47, 14, $black $black $black $black $black $black $black $background $black $black $black $black $black $black $black, $offset: 35)
+        helper.render_row(48, 14, $black $black $black $black $black $black $black $background $black $black $black $black $black $black $black, $offset: 35)
+        helper.render_row(49, 14, $black $black $black $black $black $black $black $background $black $black $black $black $black $black $black, $offset: 35)
+        helper.render_row(50, 14, $black $black $black $black $black $black $black $background $black $black $black $black $black $black $black, $offset: 35)
+        helper.render_row(51, 14, $black $black $black $black $black $black $black $background $black $black $black $black $black $black $black, $offset: 35)
+        helper.render_row(52, 16, $skinL $skinL $skinL $background $background $background $background $background $background $skinL $skinL $skinL, $offset: 30)
+        helper.render_row(53, 16, $black $black $black $background $background $background $background $background $background $black $black $black, $offset: 30)
+        helper.render_row(54, 16, $black $black $black $background $background $background $background $background $background $black $black $black, $offset: 30, $isEnd: true)
+      ;
+    }
 }
 
 .countdownWrapper{
